@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import HelloWorldModal from  "./firstbranch.js";
+import ProductModal from './ProductModal';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
           Learn React12345
         </a>
         <HelloWorldModal/>
+        <ProductModal/>
       </header>
     </div>
   );
